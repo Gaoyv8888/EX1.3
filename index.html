@@ -15,6 +15,13 @@
             height: 100vh;
             position: relative;
         }
+	.back-button {
+		position: fixed;
+	        top: 20px;
+		left: 20px;
+		z-index: 1000;
+		opacity: 0.5; /* 设置透明度为50% */
+		}
         .transparent-overlay {
             position: absolute;
             top: 50%;
@@ -74,6 +81,7 @@
     </style>
 </head>
 <body>
+	<button class="back-button" onclick="window.location.href='https://gaoyv8888.github.io/EX1/'">返回</button>
     <div class="transparent-overlay">
         <a href="https://gaoyv8888.github.io/EX1.3.1/"><button class="button button-1">自主朗读，解释翻译</button></a>
         <a href="https://gaoyv8888.github.io/EX1.3.-/"><button class="button button-2">体会词意，渐入词境</button></a>
