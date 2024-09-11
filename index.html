@@ -90,15 +90,33 @@
             background-size: cover;
             background-position: center;
         }
+		.top-text {
+		    position: fixed;
+		    top: -40px;
+		    left: 50%; /* 将左边缘设置为视口宽度的50% */
+		    transform: translateX(-50%); /* 向左移动自身宽度的50%，以实现居中 */
+		    width: 50%; /* 设置板块宽度为视口宽度的50% */
+		    max-width: 600px; /* 限制最大宽度 */
+		    height: 100px; /* 设置板块高度 */
+		    text-align: center; /* 文字居中 */
+		    padding: 10px 0;
+		    background-color: transparent;
+		    z-index: 1000;
+			font-size: 25px;
+			font-family: "楷体", KaiTi, sans-serif;
+		}
     </style>
 </head>
 <body>
+	<div class="top-text">
+	        <h1>品读赏析</h1>
+	    </div>
 	 <div class="back-arrow" onclick="window.location.href='https://gaoyv8888.github.io/EX1/'"></div>
     <div class="transparent-overlay">
         <a href="https://gaoyv8888.github.io/EX1.3.1/"><button class="button button-1">自主朗读，解释翻译</button></a>
         <a href="https://gaoyv8888.github.io/EX1.3.-/"><button class="button button-2">体会词意，渐入词境</button></a>
         <a href="https://gaoyv8888.github.io/EX1.3.3/"><button class="button button-3">研读题眼，感悟词情</button></a>
-        <a href="https://www.mgtv.com/b/534924/18514809.html"><button class="button button-4">课外拓展</button></a>
+        <a href="qpy.sp.mp4"><button class="button button-4">英文朗读，趣味视频</button></a>
     </div>
 </body>
 </html>
